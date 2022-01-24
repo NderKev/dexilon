@@ -1,0 +1,26 @@
+{
+  "name": "dexilon-test-node-js",
+  "version": "1.0.0",
+  "description": "The test as provided bby dexilon",
+  "main": "server.js",
+  "scripts": {
+    "test": "pm2 start server.js"
+  },
+  "keywords": [
+    "NFT",
+    "Deposit",
+    "Withdral",
+    "ERC721",
+    "ERC1165",
+    "nodejs"
+  ],
+  "author": "Kelvin Ndereba",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "tronweb": "^4.1.0"
+  }
+}
