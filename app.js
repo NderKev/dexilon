@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
 
 
 
-const serverRoute = require('./server');
+const serverRoute = require('./dexilon');
 app.use('/dexilon/v1/test', serverRoute);
 
 
@@ -40,7 +40,7 @@ app.use('/dexilon/v1/test', serverRoute);
     res.status(404).send({
       success : false,
       message : 'notFound',
-      type : 'JakPay Srv',
+      type : 'Dexilon Srv',
       action: req.method+' '+req.originalUrl,
       data : [],
       meta:{}
